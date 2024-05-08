@@ -7,6 +7,7 @@ import { selectCount } from './counter.selectors';
 
 @Injectable()
 export class CounterEffects {
+  // @Effect nem támogatott
   loadCount = createEffect(
     () =>
       this.actions$.pipe(
